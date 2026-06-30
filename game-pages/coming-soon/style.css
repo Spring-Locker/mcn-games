@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../coming-soon/background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.theater-screen {
+    position: absolute;
+    top: 6%;
+    left: 25.8%;
+    width: 48.4vw;
+    height: 54.5vh;
+    background-color: black;
+    z-index: 1;
+}
+
+#playBtn {
+    background: rgba(0,0,0,0.7);
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.bottom-interface-tray {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 10;
+}

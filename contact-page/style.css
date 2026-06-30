@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.411)), url(../game-pages/browser-games/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.tracking-widest {
+    letter-spacing: 2px;
+}
+
+.table th, .table td {
+    background-color: transparent;
+    padding: 15px 10px;
+}
+
+.bottom-interface-tray {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 10;
+}

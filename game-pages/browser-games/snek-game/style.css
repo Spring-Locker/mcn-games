@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gameboy-body {
+    background-color: gray;
+    border: 5px solid;
+    border-radius: 10px 10px 60px 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+}
+
+#board {
+    position: relative;
+    border-radius: 100px;
+    display: inline-flex;
+    margin: 0px;
+    color: #8bac0f;
+}
+
+.border1{
+    position: relative;
+    border: gray solid 10px;
+    border-radius: 10px 10px 40px 10px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.border2{
+    position: relative;
+    border: darkslategray solid 10px;
+    width: 94.5%;
+    display: inline-flex;
+}
+
+.border3{
+    position: relative;
+    border: #67800d solid 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    height: 110%;
+}
+
+.controls-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.dpad {
+    position: relative;
+    width: 90px;
+    height: 90px;
+}
+
+.dpad-horizontal, .dpad-vertical {
+    position: absolute;
+    background-color: #222;
+    border-radius: 3px;
+}
+
+.dpad-horizontal {
+    top: 30px;
+    left: 0;
+    width: 90px;
+    height: 30px;
+}
+
+.dpad-vertical {
+    top: 0;
+    left: 30px;
+    width: 30px;
+    height: 90px;
+}
+
+.action-buttons {
+    display: flex;
+    transform: rotate(-25deg);
+    gap: 20px;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    background-color: darkred;
+    border-radius: 50%;
+    border: 3px solid;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#instructional-text {
+    position: absolute;
+
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 20px;
+
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+#scoreBoard {
+    position: absolute;
+
+    top: 2%;
+    left: 2%;
+
+    color: black;
+    font-weight: bold;
+}
+
+#game-logo {
+    position: absolute;
+    
+    width: 510px;
+    height: 510px;
+}
