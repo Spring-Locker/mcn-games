@@ -1,6 +1,6 @@
 const bgMusic = new Audio('mcn_games_bg_music.mp3');
 bgMusic.loop = true;
-bgMusic.volume = 0.2;
+bgMusic.volume = 0.0;
 if (sessionStorage.getItem('musicPlaying') === 'true')
 {
   bgMusic.currentTime = parseFloat(sessionStorage.getItem('musicTime') || 0);
